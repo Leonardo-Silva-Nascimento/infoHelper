@@ -1,0 +1,9 @@
+Como iniciar os containers 
+
+abra o terminal acesse a pasta do projeto e rode o comando sudo su
+
+em seguida rode o comando docker-compose start 
+
+se der algum erro rode o comando docker-compose up -d --build
+
+para acessar o app na web acesse o link: http://localhost:8000/
