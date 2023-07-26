@@ -13,6 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+Route::get('/', function(){
+    return view('login');
+});
+
+Route::get('/home', function(){
+    return view('home');
+});
+
+Route::get('/produtos/{nomeProduto}', function($nomeProduto){
+    echo "pagina de produtos" . $nomeProduto;
 });
